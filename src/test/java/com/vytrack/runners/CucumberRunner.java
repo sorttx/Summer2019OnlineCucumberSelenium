@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
         features = "src\\test\\resources\\features", // path to features
         glue = "com\\vytrack\\step_definations", //path to step definitions
         dryRun = false,
-        tags = "@negative_test"
+        tags = "",
+        plugin = {"html:target/default-cucumber-reports"}
 
 )
 
